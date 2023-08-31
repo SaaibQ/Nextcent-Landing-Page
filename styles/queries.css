@@ -1,0 +1,179 @@
+@media (max-width: 965px) {
+  html {
+    font-size: 56.5%;
+  }
+  html {
+    font-size: 50%;
+  }
+  .hero-img img {
+    width: 85%;
+  }
+  .header-section {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.6rem;
+  }
+  .footer-body {
+    padding: 6.4rem;
+  }
+  .customers {
+    gap: 1.8rem;
+  }
+}
+
+@media (max-width: 725px) {
+  .section--hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+  .hero-heading {
+    padding: 1.2rem;
+  }
+  .hero-description {
+    text-align: center;
+  }
+  .btn_register {
+    margin: 0 auto;
+  }
+  .hero-img img {
+    width: 65%;
+  }
+  .community_feature {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 4.2rem 0;
+    row-gap: 5.2rem;
+  }
+  .card .img-box {
+    text-align: center;
+  }
+  .footer-body {
+    padding: 4rem;
+  }
+  .community_service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+  }
+  .service_card p {
+    text-align: left;
+  }
+  .section--community {
+    padding: 4rem 0;
+  }
+  .section--design,
+  .section--calender {
+    padding: 2.8rem 0;
+  }
+  .section--achievements {
+    padding: 6.4rem 0;
+  }
+  .grid-col-2 {
+    column-gap: 1.8rem;
+  }
+  .customer__grid {
+    grid-template-columns: 1fr;
+  }
+  .section--customer .description p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 675px) {
+  .service_card p {
+    text-align: center;
+    gap: 2.4rem;
+  }
+  .design__grid,
+  .calender__grid {
+    grid-template-columns: 1fr;
+    row-gap: 1.8rem;
+  }
+  .illustration-2-box {
+    text-align: center;
+  }
+  .illustration-2-box img {
+    width: 60%;
+  }
+  .section--achievements .stats {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .footer-body {
+    grid-template-columns: 1fr;
+    row-gap: 1.8rem;
+  }
+  .footer-col-1 {
+    align-items: center;
+  }
+  .hero {
+    padding: 1.2rem;
+  }
+  .section--customer {
+    padding: 1.6rem 2.4rem;
+  }
+  #featured-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+  .footer-heading h2 {
+    width: 100%;
+  }
+  .nav-list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    margin-bottom: 4.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    line-break: normal;
+  }
+  #featured-logo {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+  .footer-col-1 {
+    align-items: flex-start;
+  }
+  .footer-col-2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: flex-start;
+    row-gap: 2.4rem;
+  }
+  .col-stay-up-Date {
+    width: 100%;
+    grid-column: 1/-1;
+    text-align: center;
+  }
+  .section--achievements > div {
+    grid-template-columns: 1fr;
+  }
+  .achievements--heading {
+    margin-bottom: 2rem;
+  }
+  .container {
+    padding: 2rem;
+  }
+  .stat {
+    gap: 3.2rem;
+    padding: 1.2rem;
+  }
+  .section--achievements .stats {
+    justify-content: center;
+  }
+  .footer-heading h2 {
+    font-size: 5rem;
+  }
+  .community_feature {
+    row-gap: 6.2rem;
+  }
+}
